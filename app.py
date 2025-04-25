@@ -128,7 +128,7 @@ def show_feature_cards():
     </div>
 """, unsafe_allow_html=True)
 
-MODEL_NAME = "laion/clap-htsat-unfused"
+MODEL_NAME = "clap_model"
 MAX_DURATION = 6.0
 SAMPLE_RATE = 48000
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
